@@ -23,7 +23,7 @@ public class BrokerService {
 
         return mutinyEmitter.send(account)
                 .map(x -> "ok")
-                .onFailure().retry().atMost(3)
+//                .onFailure().retry().atMost(3)
                 .onFailure().recoverWithItem("NOT-OK");
     }
 }
