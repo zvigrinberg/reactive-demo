@@ -1,0 +1,4 @@
+META-INF/panache-archive.marker
+org/demo/model/Account.class
+org/demo/AccountResource.class
+org/demo/BrokerService.class
