@@ -8,6 +8,9 @@ import java.time.LocalDateTime;
 
 @MongoEntity
 @ToString
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Account extends ReactivePanacheMongoEntity {
 
     public String accountHolderName;
